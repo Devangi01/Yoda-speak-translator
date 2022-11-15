@@ -1,2 +1,2 @@
 # Yoda-speak-translator
- Convert from English to Yoda speak. Yoda often orders sentences as Object-Subject-Verb, split verbs, switches entire phrases and sometimes uses sentences that are different from his normal syntax!
+ Yoda translator translates English language sentances to yoda speak.Yoda speaks in short sentences! If you try to translate long, convoluted sentences you'll probably get a weird and often inconsistent translation.

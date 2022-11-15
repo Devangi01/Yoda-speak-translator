@@ -19,7 +19,7 @@ function getTranlatedText(text, outputBox) {
             outputContainer.appendChild(newDiv);
         })
         .catch((err) => {
-            alert("somyhing went wrong!! try after some time")
+            alert("somyhing went wrong! try after some time")
             console.log(err);
         })
 }
