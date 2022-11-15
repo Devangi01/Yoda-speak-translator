@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+:root{
+    --primary-color: #392316;
+    --bg-color : #D4B68A;
+    --btn-color : #9D6943;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--bg-color);
+    font-family: 'Open Sans', sans-serif;
+}
+.hero{
+    text-align: center;
+    color: var(--primary-color);
+}
+.hero .hero-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 10vh;
+    color: var(--primary-color);
+}
+.hero .hero-img{
+    height: 10rem;
+    margin: 1rem 0rem;
+    clip-path: circle();
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    display: block;
+    width: 80%;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+}
+#btn{
+    display: block;
+    background-color: var(--btn-color);
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border: none;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    box-shadow: 0px 8px var(--primary-color);
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.5rem;
+}
+#input::placeholder{
+    color: var(--primary-color);
+}
+#input:-moz-placeholder{
+    color: var(--primary-color);
+}
+#input::-webkit-input-placeholder{
+    color: var(--primary-color);
+}
+#input:-ms-input-placeholder{
+    color: var(--primary-color);
+}
+#btn:active {
+    box-shadow: 0px 0px var(--primary-color);
+    border: 2px solid var(--primary-color);
+    transform: translateY(8px);
+}
+.output{
+    margin: 2rem 0rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0rem;
+    position: absolute;
+    bottom: 0;
+}
+.footer .strong{
+    color: var(--btn-color);
+} 
+.non-bullet{
+    list-style: none;
+}
+.inline-link{
+    display: inline;
+    margin: 0rem 1rem;
+    font-size: 1.3rem;
+}
+.link{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding-bottom: 0.2rem;
+}
+.link:hover{
+    border-bottom: 2px solid var(--primary-color);
+}
